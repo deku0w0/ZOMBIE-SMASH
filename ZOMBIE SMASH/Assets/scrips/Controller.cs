@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
+
+    [Header ("movimiento")]
     public float velocidadMove;
     [SerializeField] private Transform[] puntosMovimiento;
     [SerializeField] private float distancia;
-    private SpriteRenderer spriteRender;
     private int siguientePaso = 0;
-    public GameObject enemy;
-    public life Life;
+
+    [Header ("damage")]
+    public bool isHuman;
+
+    public int damage;
+    int actualDamage;
+
+    public PlayerStadistics PlayerLife;
+   
 
     private void Start()
     {
-        spriteRender = GetComponent<SpriteRenderer>();
-
+        PlayerLife = FindObjectOfType<PlayerStadistics>();
     }
-    private void Update()
+    private void move()
     {
         transform.position = Vector2.MoveTowards(transform.position, puntosMovimiento[siguientePaso].position, velocidadMove * Time.deltaTime);
 
@@ -32,15 +39,34 @@ public class Controller : MonoBehaviour
         }
     }
 
-
-
-    private void OnBecameInvisible()
+    private void Update()
     {
-        Life--;
-
-        Destroy(gameObject);
+        move();
     }
+
+
+
+
     private void OnMouseDown()
+    {
+        actualDamage++;
+
+        if (isHuman)
+        {
+            PlayerLife.Life--;
+            Debug.Log(PlayerLife.Life);
+        }
+
+        if (actualDamage >= damage)
+        { 
+            Destroy(gameObject);
+        }
+
+       
+
+
+    }
+    private void OnBecameInvisible()
     {
         Destroy(gameObject);
     }

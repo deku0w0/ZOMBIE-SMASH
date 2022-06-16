@@ -137,7 +137,8 @@ MonoBehaviour:
   puntosMovimiento:
   - {fileID: 1776218878626278279, guid: d01eb9f331844e747868a536a4bb3649, type: 3}
   distancia: 0.1
-  enemy: {fileID: 0}
+  isHuman: 0
+  damage: 1
 --- !u!1001 &1217818159861956401
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -22,7 +22,6 @@ public class SpawnPoint : MonoBehaviour
 
 
     void Start()
-
     {
         InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
     }
@@ -36,7 +35,6 @@ public class SpawnPoint : MonoBehaviour
 
         GameObject enemys = Instantiate(enemies[Random.Range(0,enemies.Length)], spawnnPosition, gameObject.transform.rotation);
 
-        Debug.Log(enemys.name);
 
     }
 

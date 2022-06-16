@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 900741728370924877}
   - component: {fileID: 900741728370924876}
   - component: {fileID: 900741728370924879}
-  - component: {fileID: 900741728370924875}
   - component: {fileID: 3628559513390178039}
+  - component: {fileID: 1479793385128725754}
   m_Layer: 0
   m_Name: enemy 2
   m_TagString: Untagged
@@ -105,18 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &900741728370924875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900741728370924878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2706687c26c84a4daea571173b0c1a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3628559513390178039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,11 +117,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc98ebcd3a30374088bbf609335fb57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMove: 6
+  velocidadMove: 1
   puntosMovimiento:
   - {fileID: 1776218878626278279, guid: d01eb9f331844e747868a536a4bb3649, type: 3}
   distancia: 0.1
-  enemy: {fileID: 900741728370924878}
+  isHuman: 0
+  damage: 2
+--- !u!70 &1479793385128725754
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900741728370924878}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.9714286, y: 1.5428572}
+  m_Direction: 0
 --- !u!1 &7664239027720910910
 GameObject:
   m_ObjectHideFlags: 0

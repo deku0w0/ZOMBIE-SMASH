@@ -139,4 +139,5 @@ MonoBehaviour:
   - {fileID: 2924379399287935472, guid: b4c441c85ae15e845a406e01745270af, type: 3}
   - {fileID: 8400567934475514626, guid: 8d5d0f7263ff632438c0acc99ba8126f, type: 3}
   distancia: 0.1
-  enemy: {fileID: 9217623178600901808}
+  isHuman: 0
+  damage: 1
