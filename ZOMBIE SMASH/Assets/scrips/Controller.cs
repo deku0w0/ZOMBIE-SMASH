@@ -34,7 +34,7 @@ public class Controller : MonoBehaviour
 
             if (siguientePaso >= puntosMovimiento.Length)
             {
-                gameObject.SetActive(false);
+                Destroy(gameObject);
             }
         }
     }
@@ -54,20 +54,30 @@ public class Controller : MonoBehaviour
         if (isHuman)
         {
             PlayerLife.Life--;
-            Debug.Log(PlayerLife.Life);
         }
 
         if (actualDamage >= damage)
         { 
             Destroy(gameObject);
         }
-
-       
-
-
     }
-    private void OnBecameInvisible()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if (transform.tag == "Enemy" && collision)
+        {
+            PlayerLife.Life--;
+            Destroy(gameObject);
+        }
+    }
+
+   private void OnBecameInvisible()
+    {
+
+        if (isHuman)
+        {
+            Destroy(gameObject);
+        }
+        
     }
 }

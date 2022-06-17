@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7916231341347075053}
   m_Layer: 0
   m_Name: enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,8 @@ MonoBehaviour:
   - {fileID: 8108916016969748389, guid: 91da1deeddc5d244ba068ba076fee633, type: 3}
   - {fileID: 6620272194073006652, guid: b377ab251c7517c40a19afe1318ddb84, type: 3}
   - {fileID: 2924379399287935472, guid: b4c441c85ae15e845a406e01745270af, type: 3}
-  - {fileID: 8400567934475514626, guid: 8d5d0f7263ff632438c0acc99ba8126f, type: 3}
+  - {fileID: 516548538336078768, guid: 4c6425d2db8df0f4394b2bb24a9bb45e, type: 3}
   distancia: 0.1
   isHuman: 0
   damage: 1
+  PlayerLife: {fileID: 0}
