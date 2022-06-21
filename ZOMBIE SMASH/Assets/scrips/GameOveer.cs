@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameOveer : MonoBehaviour
 {
     public GameObject gameOver;
+    public PlayerStadistics player;
 
 
 
@@ -23,6 +24,7 @@ public class GameOveer : MonoBehaviour
     public void RestarButton()
     {
         SceneManager.LoadScene("Game");
+
 
     }
 
