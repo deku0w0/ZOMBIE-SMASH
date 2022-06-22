@@ -18,6 +18,11 @@ public class Controller : MonoBehaviour
     int actualDamage;
 
     public PlayerStadistics PlayerLife;
+
+    [Header("songs")]
+    public Sonidos song;
+
+   
    
 
     private void Start()
@@ -42,8 +47,8 @@ public class Controller : MonoBehaviour
     private void Update()
     {
         move();
-    }
 
+    }
 
 
 
@@ -59,6 +64,7 @@ public class Controller : MonoBehaviour
         if (actualDamage >= damage)
         { 
             Destroy(gameObject);
+            song.Sonido();
         }
     }
 

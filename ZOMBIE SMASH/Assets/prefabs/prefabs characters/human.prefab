@@ -140,6 +140,7 @@ MonoBehaviour:
   isHuman: 1
   damage: 1
   PlayerLife: {fileID: 0}
+  song: {fileID: 3790453276348949705, guid: 2c64aac11504e9a4da9026c859b91d3f, type: 3}
 --- !u!1 &1607755686556964015
 GameObject:
   m_ObjectHideFlags: 0

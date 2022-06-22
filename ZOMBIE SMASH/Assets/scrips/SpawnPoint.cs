@@ -19,11 +19,18 @@ public class SpawnPoint : MonoBehaviour
     public Transform yRangeUp;
     public Transform yRangeDown;
 
+    [Header("dificultad")]
+
+    public float curva = 10f;
+    public float contador = 0f;
+
+    public Controller Move;
+
 
 
     void Start()
     {
-        InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
+        //InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
     }
 
     public void Spawn()
@@ -41,8 +48,15 @@ public class SpawnPoint : MonoBehaviour
      private void Update()
      {
 
+        contador += Time.deltaTime;
 
-
+        if (contador >= curva)
+        {
+            timeSpawn= timeSpawn - 0.5f;
+            repeatSpawnRate = repeatSpawnRate - 0.5f;
+            contador = 0;
+        }
+        InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
 
      }
 
