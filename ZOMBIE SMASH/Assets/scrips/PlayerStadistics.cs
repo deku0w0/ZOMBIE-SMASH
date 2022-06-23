@@ -26,11 +26,11 @@ public class PlayerStadistics : MonoBehaviour
 
         if (Life<1)
         {
-            Destroy(Heart[2].gameObject);
+            Destroy(Heart[1].gameObject);
         }
         else if (Life < 2)
         {
-            Destroy(Heart[1].gameObject);
+            Destroy(Heart[2].gameObject);
         }
        else if (Life < 3)
         {

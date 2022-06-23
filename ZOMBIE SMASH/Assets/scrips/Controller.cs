@@ -14,6 +14,8 @@ public class Controller : MonoBehaviour
     [Header ("damage")]
     public bool isHuman;
 
+
+    public GameObject[] sprites;
     public int damage;
     int actualDamage;
 
@@ -63,8 +65,17 @@ public class Controller : MonoBehaviour
 
         if (actualDamage >= damage)
         { 
-            Destroy(gameObject);
+            velocidadMove = 0;
+            sprites[0].SetActive(false);
+            sprites[1].SetActive(true);
+
+            if (sprites[1] == true)
+            {
+                Destroy(gameObject, 0.6f);
+            }
+
             song.Sonido();
+
         }
     }
 

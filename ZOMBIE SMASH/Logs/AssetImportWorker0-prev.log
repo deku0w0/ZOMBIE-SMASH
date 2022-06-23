@@ -1,0 +1,693 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.2274; Version 1909; 64bit' Language: 'es' Physical Memory: 32565 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/2449434- andres chanci/ZOMBIE-SMASH/ZOMBIE SMASH
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52837
+Successfully changed project path to: D:/2449434- andres chanci/ZOMBIE-SMASH/ZOMBIE SMASH
+D:/2449434- andres chanci/ZOMBIE-SMASH/ZOMBIE SMASH
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2449434- andres chanci/ZOMBIE-SMASH/ZOMBIE SMASH/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e98)
+    Vendor:   
+    VRAM:     16282 MB
+    Driver:   27.20.100.8190
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005688 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3805ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (310ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AD78BB0830 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD7975DE70 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78CF92B0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78B0B020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B04F20 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78D8A3F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78BD8A40 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83272020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B04F20 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B04F20 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81760080 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83554020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82D531F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B04F20 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78D8A3F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78D8A3F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B18130 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78D8A3F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81F0A020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81CAA030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81F5E020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82E3D010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83056020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78FBEE30 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83338030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78AF7040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82C96010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81F91430 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82D55E00 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8209BE50 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81F91430 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB820EB040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82E0E7A0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.447 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (363ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (356ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.3 MB.
+System memory in use after: 93.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 3.272800 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.071300 ms MarkObjects: 2.957900 ms  DeleteObjects: 0.062700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/scrips/Controller.cs
+  artifactKey: Guid(ddc98ebcd3a30374088bbf609335fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scrips/Controller.cs using Guid(ddc98ebcd3a30374088bbf609335fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977d4fad09db39e3c839c4399ca3dc95') in 0.054934 seconds 
+  Import took 0.058071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AB81EB6420 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB819A3530 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85F1C050 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78C63020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8545A020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871BC210 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86E14AF0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86E7C280 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78CFDA40 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB87339D10 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871BC210 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83429040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81C9A010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871FE410 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8654A020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81CAD220 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB825D5040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81EB6420 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86435020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8722F250 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85E87030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85F1C050 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8722F250 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78CD1010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB87171D10 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82C96010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B0A420 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8503EA20 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78A6D9E0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871FE410 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ABB5CB9E80 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78CFDA40 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (324ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 2.444400 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.226000 ms  DeleteObjects: 0.013800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006666 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AB87684D80 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB819A4670 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871D3840 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81C745F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78BD4020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871BC210 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86C0FB50 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DD6040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78BB0830 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81F5E020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871BC210 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DAC6F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81C9A010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86C0FB50 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81CAD220 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB825D5040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB820AE020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86435020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86AF6CC0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85E87030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871D3840 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81EC8010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ABB5C93840 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB87176A80 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83A7B030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DD6040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8722D4F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78A6D660 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86CE5780 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DAC6F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB873870B0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1500ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1131ms)
+			LoadAssemblies (315ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 7.143600 ms (FindLiveObjects: 1.027600 ms CreateObjectMapping: 0.158000 ms MarkObjects: 5.857600 ms  DeleteObjects: 0.095900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006670 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AB82C00080 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB819A3980 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DAC6F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82FB76D0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB875A00A0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB873126B0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86E14AF0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78AE7010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86B7F280 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82C00080 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86ADAC90 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DAC6F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81C9A010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86C0FB50 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB871D1020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB825D5040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82C00080 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86435020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8722F250 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85E87030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DAC6F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB852EA040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81D54020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB87176A80 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83A7B030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81B0A420 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86AF06A0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78A6D660 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB87D7B050 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78DAC6F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78CFDA40 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1519ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (331ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 4.398400 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.087700 ms MarkObjects: 4.009500 ms  DeleteObjects: 0.097600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AB81DE4020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB819A3DD0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85F1C050 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86A2B4A0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB862490F0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8667E530 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86E14AF0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81FE6030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8545A020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB820AE020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8667E530 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB856A4060 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81C9A010 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86D6E980 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86283020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81CAD220 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8673A320 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB820AE020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86435020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8722F250 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85862F10 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB85F1C050 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8772CDE0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86028020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB87174950 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB83A7B030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB81FE6030 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB8256F020 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AD78A6D660 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB82CE9040 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86BFC8D0 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AB86BDFB30 doesn't match image D:\2449434- andres chanci\ZOMBIE-SMASH\ZOMBIE SMASH\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 2.775700 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.550700 ms  DeleteObjects: 0.014100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
