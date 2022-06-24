@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 3600193098394129569}
   distancia: 0.1
   isHuman: 0
+  points: 15
   sprites:
   - {fileID: 3600193098707855021}
   - {fileID: 3210198435653083120}

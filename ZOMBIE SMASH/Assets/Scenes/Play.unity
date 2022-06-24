@@ -352,7 +352,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1477926985}
-        m_TargetAssemblyTypeName: GameOveer, Assembly-CSharp
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
         m_MethodName: play
         m_Mode: 1
         m_Arguments:
@@ -767,9 +767,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1477926980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1ab59bc5da6cbe4e91a9d18abdb500a, type: 3}
+  m_Script: {fileID: 11500000, guid: efb66680399061c429d3321ed1fba820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
-  player: {fileID: 0}
-  canvasInicio: {fileID: 1398692103}
+  canvasInicio: {fileID: 1477926980}

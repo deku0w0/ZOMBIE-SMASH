@@ -10,27 +10,19 @@ public class SpawnPoint : MonoBehaviour
 
     public float repeatSpawnRate = 3;
 
-
-
-
     public Transform xRangeRight;
     public Transform xRangeLeft;
-
     public Transform yRangeUp;
     public Transform yRangeDown;
 
     [Header("dificultad")]
-
     public float curva = 10f;
     public float contador = 0f;
-
-    public Controller Move;
-
-
+    int Cantidad = 2;
 
     void Start()
     {
-        InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
+        Spawn(2);
     }
      private void Update()
      {
@@ -42,20 +34,25 @@ public class SpawnPoint : MonoBehaviour
                 timeSpawn= timeSpawn - 0.5f;
                 repeatSpawnRate = repeatSpawnRate - 0.5f;
                 contador = 0;
-                InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
+            // InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
+                Spawn(Cantidad);
+                Cantidad += 2;
+              
             }
        
 
      }
-    public void Spawn()
+    public void Spawn(float cantidad)
     {
 
         Vector3 spawnnPosition = new Vector3(0, 0, 0);
 
-        spawnnPosition = new Vector3(Random.Range(xRangeLeft.position.x, xRangeRight.position.x), Random.Range(yRangeDown.position.y, yRangeUp.position.y), 0);
+        for (int i = 0; i < cantidad; i++)
+        {
+            spawnnPosition = new Vector3(Random.Range(xRangeLeft.position.x, xRangeRight.position.x), Random.Range(yRangeDown.position.y, yRangeUp.position.y), 0);
 
-        GameObject enemys = Instantiate(enemies[Random.Range(0,enemies.Length)], spawnnPosition, gameObject.transform.rotation);
-
+            GameObject enemys = Instantiate(enemies[Random.Range(0,enemies.Length)], spawnnPosition, gameObject.transform.rotation);
+        }
 
     }
 
