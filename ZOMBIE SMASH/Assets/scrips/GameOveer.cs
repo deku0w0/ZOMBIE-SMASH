@@ -7,29 +7,23 @@ using TMPro;
 
 public class GameOveer : MonoBehaviour
 {
-    public GameObject gameOver;
-    public GameObject canvasInicio;
 
     private void Start()
     {
 
     }
-
-    public void setUp(int life)
+    public void GameOver()
     {
-        gameOver.SetActive(true);
+        SceneManager.LoadScene("gameover");
     }
-
     private void Update()
     {
 
 
     }
-
     public void RestarButton()
     {
         SceneManager.LoadScene("Game");
-        Debug.Log("restart");
     }
 
 }

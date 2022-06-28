@@ -24,9 +24,6 @@ public class ControllerEnemys : MonoBehaviour
 
     public GameManager PlayerLife;
 
-    [Header("songs")]
-    public Sonidos song;
-
     private void Start()
     {
         PlayerLife = FindObjectOfType<GameManager>();
@@ -79,7 +76,7 @@ public class ControllerEnemys : MonoBehaviour
                 Destroy(gameObject, 0.6f);
             }
 
-            song.Sonido();
+            PlayerLife.Sonido(isHuman);
 
         }
     }

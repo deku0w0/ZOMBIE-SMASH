@@ -8,11 +8,8 @@ using TMPro;
 
 public class Play : MonoBehaviour
 {
-    public GameObject canvasInicio;
     public void play()
     {
-        canvasInicio.gameObject.SetActive(false);
         SceneManager.LoadScene("Game");
-
     }
 }

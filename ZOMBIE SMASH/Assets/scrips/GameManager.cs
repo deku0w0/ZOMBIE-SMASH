@@ -26,29 +26,80 @@ public class GameManager : MonoBehaviour
     public int Life = 3;
     public GameOveer gameOver;
 
+
+    [Header("spawn")]
+    public GameObject[] enemies;
+
+    public float timeSpawn = 1;
+
+    public float repeatSpawnRate = 3;
+
+    public Transform xRangeRight;
+    public Transform xRangeLeft;
+    public Transform yRangeUp;
+    public Transform yRangeDown;
+
+    [Header("control de dificultad")]
+    public float curva = 10f;
+    public float contador = 0f;
+    int Cantidad = 2;
+
+    [Header("sonidos")]
+    public AudioSource audi;
+    public AudioClip elSonido;
+    public AudioClip elSonidoH;
+
+    [Header("menuDePausa")]
+    [SerializeField] private GameObject botonPausa;
+    [SerializeField] private GameObject menuPausa;
+    public bool juegoPausado = false;
+
     void Start()
     {
 
-        
+        Spawn(2);
+
 
 
     }
     void Update()
     {
 
+        //contador 
         tiempoDeFrameConTimeScale = Time.deltaTime * escalaDelTiempo;
 
         timeInsecondsToShow += tiempoDeFrameConTimeScale;
 
         actualizarReloj(timeInsecondsToShow);
+        // spawn 
+        contador += Time.deltaTime;
+
+        if (contador >= curva)
+        {
+            timeSpawn = timeSpawn - 0.5f;
+            repeatSpawnRate = repeatSpawnRate - 0.5f;
+            contador = 0;
+            // InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
+            Spawn(Cantidad);
+            Cantidad += 2;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (juegoPausado)
+            {
+                Reanudar();
+            }
+            else
+            {
+                MenuPausa();
+            }
+        }
     }
     public void GameOver()
     {
-        if (Life <= 0)
-        {
-            gameOver.setUp(Life);
-
-        }
+        gameOver.GameOver();
     }
     public void actualizarReloj(float tiempoEnSegundos)
     {
@@ -96,4 +147,54 @@ public class GameManager : MonoBehaviour
         scoreEnPantalla = "Score" + ":" + scoreValue;
         score.text = scoreEnPantalla;
     }
+    public void Spawn(float cantidad)
+    {
+
+        Vector3 spawnnPosition = new Vector3(0, 0, 0);
+
+        for (int i = 0; i < cantidad; i++)
+        {
+            spawnnPosition = new Vector3(Random.Range(xRangeLeft.position.x, xRangeRight.position.x), Random.Range(yRangeDown.position.y, yRangeUp.position.y), 0);
+
+            GameObject enemys = Instantiate(enemies[Random.Range(0, enemies.Length)], spawnnPosition, gameObject.transform.rotation);
+        }
+
+    }
+    public void Sonido(bool isHuman)
+    {
+        if (isHuman == true)
+        {
+            AudioSource.PlayClipAtPoint(elSonidoH, gameObject.transform.position);
+        }
+        else
+        {
+           AudioSource.PlayClipAtPoint(elSonido, gameObject.transform.position);      
+        }
+       
+    }
+    public void MenuPausa()
+    {
+        juegoPausado = true;
+        Time.timeScale = 0f;
+        botonPausa.SetActive(false);
+        menuPausa.SetActive(true);
+    }
+    public void Reanudar()
+    {
+        juegoPausado = false;
+        Time.timeScale = 1f;
+        botonPausa.SetActive(true);
+        menuPausa.SetActive(false);
+    }
+    public void Reiniciar()
+    {
+        juegoPausado = false;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void Cerrar()
+    {
+        SceneManager.LoadScene("Play");
+    }
+
 }
