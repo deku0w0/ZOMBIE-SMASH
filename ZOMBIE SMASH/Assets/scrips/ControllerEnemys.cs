@@ -27,6 +27,9 @@ public class ControllerEnemys : MonoBehaviour
     private void Start()
     {
         PlayerLife = FindObjectOfType<GameManager>();
+
+        velocidadMove = Random.Range(2,6);
+        damage = Random.Range(1,3);
     }
     private void move()
     {
@@ -51,7 +54,7 @@ public class ControllerEnemys : MonoBehaviour
     private void OnMouseDown()
     {
         actualDamage++;
-        if (isHuman)
+        if (isHuman && actualDamage >= damage)
         {
             PlayerLife.Life--;
             PlayerLife.heart();

@@ -12,4 +12,18 @@ public class Play : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+    public void reglas()
+    {
+        SceneManager.LoadScene("reglas");
+    }
+    public void Exit()
+    {
+        SceneManager.LoadScene("Play");
+        Time.timeScale = 1f;
+    }
+    public void exit2()
+    {
+
+        Application.Quit();
+    }
 }

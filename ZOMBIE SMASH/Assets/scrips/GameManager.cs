@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [Header("time")]
     public float tiemoiInicial;
     [Range(-10f, 10f)]
-    public float escalaDelTiempo = 1;
+    public float escalaDelTiempo = -1;
     public TMP_Text myText;
     private float tiempoDeFrameConTimeScale = 0f;
     private float timeInsecondsToShow = 0f;
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public static int scoreValue = 0;
     public TMP_Text score;
     private string scoreEnPantalla;
+    public string scoreFinal;
 
     [Header("player")]
     public GameObject[] Heart;
@@ -30,9 +31,9 @@ public class GameManager : MonoBehaviour
     [Header("spawn")]
     public GameObject[] enemies;
 
-    public float timeSpawn = 1;
+    public float timeSpawn = 5;
 
-    public float repeatSpawnRate = 3;
+    public float repeatSpawnRate = 5;
 
     public Transform xRangeRight;
     public Transform xRangeLeft;
@@ -54,15 +55,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject menuPausa;
     public bool juegoPausado = false;
 
-    void Start()
+    public void Start()
     {
-
         Spawn(2);
 
-
+        escalaDeTiempoInicial = escalaDelTiempo;
+        timeInsecondsToShow = tiemoiInicial;
+        actualizarReloj(tiemoiInicial);
 
     }
-    void Update()
+    public void Update()
     {
 
         //contador 
@@ -122,6 +124,10 @@ public class GameManager : MonoBehaviour
         //actualizar el elemento de text ui con la cadena de caracteres 
         myText.text = textoDeReloj;
 
+        if (minutos <= 0 && segundos <= 0)
+        {
+            SceneManager.LoadScene("win");
+        }
     }
     public void heart()
     {
@@ -142,10 +148,11 @@ public class GameManager : MonoBehaviour
     }
     public void Score(int points)
     {
-
         scoreValue += points;
         scoreEnPantalla = "Score" + ":" + scoreValue;
         score.text = scoreEnPantalla;
+
+        scoreFinal = score.text;
     }
     public void Spawn(float cantidad)
     {
@@ -195,6 +202,7 @@ public class GameManager : MonoBehaviour
     public void Cerrar()
     {
         SceneManager.LoadScene("Play");
+        Time.timeScale = 1f;
     }
 
 }

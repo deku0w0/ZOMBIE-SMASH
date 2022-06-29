@@ -1,20 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
 
-public class GameOveer : MonoBehaviour
+public class win : MonoBehaviour
 {
-
-    private void Start()
+    public void Win()
     {
-
-    }
-    public void GameOver()
-    {
-        SceneManager.LoadScene("gameover");
+        SceneManager.LoadScene("win");
     }
     private void Update()
     {
@@ -23,7 +16,6 @@ public class GameOveer : MonoBehaviour
     }
     public void RestarButton()
     {
-        GameManager.scoreValue = 0;
         SceneManager.LoadScene("Game");
     }
     public void Exit()
@@ -31,5 +23,4 @@ public class GameOveer : MonoBehaviour
         SceneManager.LoadScene("Play");
         Time.timeScale = 1f;
     }
-
 }
